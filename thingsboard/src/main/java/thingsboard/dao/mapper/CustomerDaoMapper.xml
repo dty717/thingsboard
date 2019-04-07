@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+       Copyright 2010-2016 the original author or authors.
+
+       Licensed under the Apache License, Version 2.0 (the "License");
+       you may not use this file except in compliance with the License.
+       You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing, software
+       distributed under the License is distributed on an "AS IS" BASIS,
+       WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+       See the License for the specific language governing permissions and
+       limitations under the License.
+
+-->
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="thingsboard.dao.mapper.CustomerDaoMapper">
+
+<!--    <select id="test" resultType="String">
+        SELECT
+            table_name
+             FROM `common_id` WHERE `ID` LIKE '123xsw2d2-1213-df33f'
+    </select>-->
+<!--    <select id="getAddrByNameAndCompany" resultType="ValueCenter.domain.Addr">
+        SELECT * FROM ${company} WHERE `name` LIKE #{name}
+    </select>
+    
+    <select id="getCommonID" resultType="ValueCenter.domain.CommonID">
+        SELECT 
+            `ID` as "id",
+            table_name as "tableName",
+            location as "location",
+            company as "company"
+        FROM `common_id` WHERE `ID` LIKE #{id}
+    </select>-->
+    <!--
+    <insert id="insertThing" parameterType="Thing">
+        INSERT INTO Thing
+        (东西,位置,图片路径,常用,数量,特性)
+        VALUES
+        (#{name}, #{location}, #{picture}, #{oftenUsed}, #{count},  #{attrs})
+    </insert>
+
+    
+    <select id="getTags" resultType="String">
+        SELECT (标签名) FROM 性质标签
+    </select>
+    <select id="getThings" resultType="Thing">
+        SELECT
+            东西 as "name",
+            位置 as "location",
+            图片路径 as "picture",
+            常用 as "oftenUsed",
+            数量 as "count",
+            特性 as "attrs"
+         FROM Thing limit  #{page},#{pageSize};
+    </select>
+    <select id="searchThings" resultType="Thing">
+        SELECT
+        东西 as "name",
+        位置 as "location",
+        图片路径 as "picture",
+        常用 as "oftenUsed",
+        数量 as "count",
+        特性 as "attrs"
+        FROM Thing WHERE 东西 LIKE #{name} limit  #{page},#{pageSize};
+    </select>-->
+
+
+</mapper>
